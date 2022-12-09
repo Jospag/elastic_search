@@ -17,7 +17,7 @@ from django_elasticsearch_dsl_drf.filter_backends import (
     OrderingFilterBackend,
 )
 
-
+# Generate random data from new-api
 def generate_random_data():
     url = 'https://newsapi.org/v2/everything?q=Apple&from=2022-12-09&sortBy=popularity&apiKey=16e6045417a440cf8054dfa419689094'
     r = requests.get(url)
